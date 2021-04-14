@@ -2103,9 +2103,9 @@ header {
     .mobile-menu {
         .menu-active.menu-wrap {
             .logo {
-                width: 110px;
-                height: 110px;
-                font-size: 30px;
+                width: 58px;
+                height: 50px;
+                font-size: 18px;
             }
         }
     }
@@ -2160,6 +2160,10 @@ header {
                     .card-client {
                         min-width: 30%;
                         height: 50%;
+                        margin: 20px 15px;
+                    }
+                    .card-client:nth-child(2) {
+                        width: 105%;
                     }
                 }
             }
@@ -2179,6 +2183,28 @@ header {
                     padding: 0;
                 }
             }
+        }
+    }
+
+    .wr-about {
+        .size-contain {
+            .our-contain {
+                padding: 35px 15px;
+            }
+        }
+    }
+    .wr-home {
+        .wr-home-container {
+            padding-top: 20vh;
+        }
+    }
+
+    .content-forest {
+        height: 440px;
+    }
+    .wr-blog {
+        .blog-post-container {
+            height: 560px;
         }
     }
 }

@@ -462,10 +462,10 @@
         font-size: 80px;
     }
     .wr-package-service .pricing-table .slick-dots {
-        left: 93%;
+        left: 96%;
     }
     .wr-package-service .pricing-table .slick-dots li button:before {
-        font-size: 75px;
+        font-size: 50px;
     }
     
 }

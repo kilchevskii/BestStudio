@@ -461,7 +461,9 @@
         font-size: 80px;
     }
     .wr-package-service .pricing-table .slick-dots {
-        left: 93%;
+        left: 36%;
+        top: 95%;
+        flex-direction: row;
     }
     .wr-package-service .pricing-table .slick-dots li button:before {
         font-size: 70px;

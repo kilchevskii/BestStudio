@@ -461,13 +461,19 @@
         font-size: 80px;
     }
     .wr-package-service .pricing-table .slick-dots {
-        left: 36%;
+        left: 32%;
         top: 95%;
         flex-direction: row;
     }
     .wr-package-service .pricing-table .slick-dots li button:before {
         font-size: 70px;
         overflow: visible;
+    }
+
+    .wr-package-service .pricing-table .slick-dots li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     

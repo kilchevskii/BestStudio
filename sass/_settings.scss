@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.wr-container-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 85px;
+    padding-top: 4vh;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+input {
+    outline: none;
+}
+textarea {
+    outline: none;
+}

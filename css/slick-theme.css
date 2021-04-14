@@ -1,0 +1,527 @@
+@charset 'UTF-8';
+/* Slider */
+.slick-loading .slick-list
+{
+}
+
+/* Icons */
+@font-face
+{
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('./fonts/slick.eot');
+}
+/* Arrows */
+.slick-prev,
+.slick-next
+{
+    font-size: 0;
+    line-height: 0;
+
+    position: absolute;
+    top: 50%;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+    cursor: pointer;
+
+    color: transparent;
+    border: none;
+    outline: none;
+    outline-width: 0px;
+    background: transparent;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+{
+    color: transparent;
+    outline: none;
+    outline-width: 0px;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    opacity: 1;
+}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before
+{
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before
+{
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+
+    opacity: .75;
+    color: white;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev
+{
+    left: -25px;
+}
+[dir='rtl'] .slick-prev
+{
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before
+{
+    content: '←';
+}
+[dir='rtl'] .slick-prev:before
+{
+    content: '→';
+}
+
+.slick-next
+{
+    right: -25px;
+}
+[dir='rtl'] .slick-next
+{
+    right: auto;
+    left: -25px;
+}
+.slick-next:before
+{
+    content: '→';
+}
+[dir='rtl'] .slick-next:before
+{
+    content: '←';
+}
+
+/* Dots */
+.slick-dotted.slick-slider{
+    /* overflow: hidden; */
+}
+
+
+.slick-dots
+{
+    position: relative;
+
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 5vh;
+    list-style: none;
+
+    text-align: center;
+}
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 0px;
+    padding: 0;
+
+    cursor: pointer;
+}
+.slick-dots li button
+{
+    margin-left: -8px;
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: none;
+
+
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before
+{
+    opacity: 1;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 60px;
+    line-height: 20px;
+
+    position: re;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: rgb(184, 184, 184);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: .75;
+    color: #fff;
+}
+
+.wr-portfolio .slick-dots li button:before {
+    font-size: 40px;
+}
+.wr-portfolio .slick-dots {
+    margin-top: 10px;
+    position: absolute;
+    top: 104%;
+    right: -50.3%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-phone .slick-dots {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: -54%;
+    left: 47%;
+    transform: rotate(90deg);
+}
+.slider-phone .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slider-phone .slick-dots li button:before {
+    color: #fff;
+}
+
+.slider-phone .slick-next  {
+    transform: translate(0%, -50%);
+    right: 48.7%;
+    top: 111.3%;
+    width: 30px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+    background-color: #fff;
+}
+
+.slider-phone .slick-prev { 
+    transform: translate(0%, -50%);
+    left: 45.5%;
+    top: 111.3%;
+    width: 30px;
+    height: 30px;
+    border: solid 2px #e6e6e6;
+    background-color: #fff;
+}
+
+.slider-phone .slick-prev:before {
+    background-image: url("../media/5section/chevron-left-solid.svg");
+}
+
+.slider-phone .slick-next:before {
+    background-image: url("../media/5section/chevron-right-solid.svg");
+}
+
+.slider-phone .slick-next:before , .slider-phone .slick-prev:before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    background-size: cover;
+}
+
+.slider-phone {
+    overflow: hidden;
+}
+
+@media (max-width:992px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 90px;
+        }
+    .wr-portfolio .slick-dots {
+        top: 120%;
+        right: -49.9%;
+    }
+    .slider-phone .slick-dots {
+        top: -31%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    
+}
+
+@media (max-width:769px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 90px;
+        }
+    .wr-portfolio .slick-dots {
+        top: 96%;
+        right: -49.9%;
+    }
+    .slider-phone .slick-dots {
+        top: -15%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    .wr-package-service .pricing-table .slick-dots {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 75%;
+        top: 15%;
+    }
+    .wr-package-service .pricing-table  .slick-dots li button:before {
+        font-size: 100px;
+        opacity: 1;
+        color: #f39c12;
+        margin-left: -4px;
+    }
+    .wr-package-service .pricing-table  .slick-dots li {
+        padding-bottom: 40px;
+        overflow: hidden;
+    }
+    .wr-package-service .pricing-table  .slick-dots li.slick-active button:before {
+        color: rgb(209, 47, 47);
+    }
+    
+}
+
+@media (max-width:570px) {
+ .team-contain .slick-dots li button:before {
+        font-size: 80px;
+        opacity: 0.7;
+        color: #f39c12;
+    }
+    .team-contain .slick-dots li.slick-active button:before{
+        color: rgb(209, 47, 47);
+    }
+    .wr-package-service .pricing-table .slick-dots {
+        left: 85%;
+    }
+
+    .blog-post-container .slick-dots {
+        margin-top: 0px;
+    }
+
+    .blog-post-container .slick-dots li button:before {
+        font-size: 80px;
+        opacity: 0.7;
+        color: #f39c12;
+    }
+    .blog-post-container .slick-dots li.slick-active button:before{
+        color: rgb(209, 47, 47);
+    }
+}
+
+@media (max-width:500px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 80px;
+        }
+        
+    .wr-portfolio .slick-dots {
+        top: 96%;
+        right: -49.9%;
+    }
+    .slider-phone .slick-dots {
+        top: 10%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    .wr-package-service .pricing-table .slick-dots {
+        /* display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 55%;
+        top: 10%; */
+    }
+    .wr-package-service  .slick-dots li.slick-active button:before {
+        color: orangered;
+    }
+    .wr-package-service  .slick-dots {
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+    }
+    .slick-dots li button:before {
+        font-size: 80px;
+    }
+    .wr-package-service .size-contain .pricing-table ul li {
+        overflow: hidden;
+    }
+    .wr-package-service  .slick-dots {
+        margin-right: -15px;
+    
+}
+.table-slider {
+    outline: none;
+}
+
+@media (max-width:430px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 90px;
+        }
+    .wr-portfolio .slick-dots {
+        top: 120%;
+        right: -49.9%;
+    }
+    .slider-phone .slick-dots {
+        top: 15%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    .wr-package-service .pricing-table .slick-dots {
+        left: 93%;
+    }
+    .wr-package-service .pricing-table .slick-dots li button:before {
+        font-size: 75px;
+    }
+    
+}
+
+@media (max-width:375px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 80px;
+        }
+    .wr-portfolio .slick-dots {
+        top: 110%;
+        right: -49.9%;
+    } 
+    .slider-phone .slick-dots {
+        top: 20%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    
+}
+
+@media (max-width:320px) {
+    .wr-home-container 
+        .slick-dots li button:before {
+        font-size: 80px;
+        }
+        .slick-dots li {
+            padding: 3px;
+            margin-right: 10px;
+        }
+    .content-forest 
+        .portfolio-container 
+        .slick-dots li button:before {
+            font-size: 80px;
+        }
+        
+    .wr-portfolio .slick-dots {
+        top: 110%;
+        right: -49.9%;
+    }
+    .slider-phone .slick-dots {
+        top: 25%;
+    }
+    .featured-project .slick-dots li button:before {
+        font-size: 80px;
+    }
+    
+}
+}

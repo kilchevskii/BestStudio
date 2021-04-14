@@ -449,7 +449,7 @@
     .content-forest 
         .portfolio-container 
         .slick-dots li button:before {
-            font-size: 90px;
+            font-size: 70px;
         }
     .wr-portfolio .slick-dots {
         top: 120%;
@@ -462,7 +462,7 @@
         font-size: 80px;
     }
     .wr-package-service .pricing-table .slick-dots {
-        left: 96%;
+        left: 94%;
     }
     .wr-package-service .pricing-table .slick-dots li button:before {
         font-size: 50px;

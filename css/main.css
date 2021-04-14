@@ -2107,6 +2107,15 @@ header {
   .wr-blog .blog-post-container {
     height: 560px;
   }
+
+  .size-contain-wrap .circle-content .circle-contain .circle-contain-border {
+    width: 70px;
+    height: 70px;
+  }
+
+  .wr-portfolio .portfolio-container .portfolio-content span {
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

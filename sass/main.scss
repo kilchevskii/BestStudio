@@ -2160,6 +2160,7 @@ header {
                     padding: 0;
                 }
                 .clients {
+                    padding: 0;
                     .card-client {
                         min-width: 30%;
                         height: 50%;
@@ -2174,6 +2175,7 @@ header {
     }
     .wr-blog {
         .blog-post-container {
+            margin-bottom: 40px;
             .blog-post {
                 max-width: 45%;
             }

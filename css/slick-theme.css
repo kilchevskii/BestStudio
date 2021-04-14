@@ -467,7 +467,10 @@
     }
     .wr-package-service .pricing-table .slick-dots li button:before {
         font-size: 70px;
+        overflow: visible;
     }
+
+    
     
 }
 

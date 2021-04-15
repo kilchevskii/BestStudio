@@ -2162,7 +2162,7 @@ header {
                 .clients {
                     padding: 0;
                     .card-client {
-                        min-width: 30%;
+                        width: 100%;
                         height: 50%;
                         margin: 20px 15px;
                     }
@@ -2205,7 +2205,7 @@ header {
     }
 
     .content-forest {
-        height: 490px;
+        height: 100%;
     }
     .wr-blog {
         .blog-post-container {
@@ -2237,6 +2237,11 @@ header {
         .pricing-table {
             padding: 0;
             margin: 0 0 80px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
         }
     }
 

@@ -31,7 +31,7 @@ $('.pricing-table').slick({
   slidesToShow: 1,
   arrows: false,
   dots: true,
-  infinite: false,
+  infinite: true,
   mobileFirst: true,
   responsive: [{
     breakpoint: 768,

@@ -476,6 +476,10 @@
         align-items: center;
     }
 
+    .blog-post-container .slick-dots {
+        margin-left: -10px;
+    }
+
     
     
 }

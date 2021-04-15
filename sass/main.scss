@@ -2205,11 +2205,11 @@ header {
     }
 
     .content-forest {
-        height: 440px;
+        height: 490px;
     }
     .wr-blog {
         .blog-post-container {
-            height: 600px;
+            height: 100%
         }
     }
     .size-contain-wrap {
@@ -2236,7 +2236,31 @@ header {
     .wr-package-service {
         .pricing-table {
             padding: 0;
-            margin: 0 0 55px 0;
+            margin: 0 0 80px 0;
+        }
+    }
+
+    .wr-team-contain {
+        .size-contain {
+            .team-contain {
+                .people-profile {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    .wr-our-clients {
+        .content-forest {
+            .size-contain {
+                .clients {
+                    .card-client {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }   
         }
     }
 

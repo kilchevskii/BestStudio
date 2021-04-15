@@ -1388,7 +1388,7 @@ header {
   padding-bottom: 7px;
   display: flex;
 }
-.wr-contact .contact-contain .form-contact-info ul li p {
+.wr-contact .contact-contain .form-contact-info ul li a {
   font-size: 16px;
   font-family: "OpenSans Regular", serif;
   text-transform: none;

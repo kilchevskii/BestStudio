@@ -696,7 +696,7 @@ header {
   max-width: 750px;
   flex-basis: 750px;
 }
-.pricing-table .table-slider {
+.pricing-table .slider-wrap {
   max-width: 100%;
   flex-grow: 1;
 }
@@ -1844,7 +1844,7 @@ header {
   .wr-package-service .pricing-table .table-basic, .wr-package-service .pricing-table .table-gold, .wr-package-service .pricing-table .table-silver {
     max-width: 250px;
   }
-  .wr-package-service .pricing-table .table-slider {
+  .wr-package-service .pricing-table .slider-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2077,6 +2077,7 @@ header {
 
   .wr-our-clients .content-forest .size-contain p {
     padding: 0;
+    margin-top: 30px;
   }
   .wr-our-clients .content-forest .size-contain .clients {
     padding: 0;
@@ -2146,6 +2147,10 @@ header {
 
   .wr-sorting-project .menu-gallery a {
     height: 100%;
+  }
+
+  .circle-content .circle-contain {
+    margin-top: 40px;
   }
 }
 

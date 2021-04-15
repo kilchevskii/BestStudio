@@ -32,11 +32,12 @@ $('.pricing-table').slick({
   arrows: false,
   dots: true,
   infinite: false,
-  // variableWidth: true,
   mobileFirst: true,
   responsive: [{
     breakpoint: 768,
-    settings: 'unslick'
+    // settings: 'unslick',
+    // slickGoTo: 1
+    swipe: true
   }]
 });
 

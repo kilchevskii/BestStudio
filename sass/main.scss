@@ -610,7 +610,7 @@ header {
     height: 440px;
     max-width: 750px;
     flex-basis: 750px;
-    .table-slider {
+    .slider-wrap {
         max-width: 100%;
         flex-grow: 1;
     }
@@ -1824,7 +1824,7 @@ header {
             .table-basic, .table-gold, .table-silver {
                 max-width: 250px;
             }
-            .table-slider {
+            .slider-wrap {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -2158,6 +2158,7 @@ header {
             .size-contain {
                 p {
                     padding: 0;
+                    margin-top: 30px;
                 }
                 .clients {
                     padding: 0;
@@ -2274,6 +2275,12 @@ header {
             a {
                 height: 100%;
             }
+        }
+    }
+
+    .circle-content {
+        .circle-contain {
+            margin-top: 40px;
         }
     }
     

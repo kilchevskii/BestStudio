@@ -33,11 +33,11 @@ $('.pricing-table').slick({
   dots: true,
   infinite: true,
   mobileFirst: true,
+  swipe: true,
   responsive: [{
     breakpoint: 768,
-    // settings: 'unslick',
+    settings: 'unslick'
     // slickGoTo: 1
-    swipe: true
   }]
 });
 
@@ -46,7 +46,7 @@ $('.team-contain').slick({
   slidesToShow: 1,
   arrows: false,
   dots: true,
-  infinite: false,
+  infinite: true,
   // variableWidth: true,
   mobileFirst: true,
   responsive: [{

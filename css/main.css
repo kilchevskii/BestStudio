@@ -503,13 +503,21 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.wr-team-contain .people-profile {
+.wr-team-contain .people-profile-slider {
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.wr-team-contain .people-profile-slider .people-profile {
   border-top: solid transparent 3px;
   text-align: center;
-  max-width: 25%;
+  max-width: 100%;
   height: 470px;
 }
-.wr-team-contain .people-profile img {
+.wr-team-contain .people-profile-slider .people-profile img {
   margin-top: 5vh;
   border: solid #c9c9c9 2px;
   border-radius: 50%;
@@ -517,7 +525,7 @@ header {
   width: 200px;
   height: 200px;
 }
-.wr-team-contain .people-profile .profile-name {
+.wr-team-contain .people-profile-slider .people-profile .profile-name {
   margin-top: 0.5vh;
   margin-bottom: 30px;
   font-size: 20px;
@@ -525,13 +533,13 @@ header {
   text-transform: uppercase;
   color: #000;
 }
-.wr-team-contain .people-profile p {
+.wr-team-contain .people-profile-slider .people-profile p {
   margin-top: -3vh;
   font-family: "OpenSans Regular", serif;
   font-size: 15px;
   color: #ccc;
 }
-.wr-team-contain .people-profile span {
+.wr-team-contain .people-profile-slider .people-profile span {
   background-color: #ccc;
   width: 20px;
   height: 5px;
@@ -539,20 +547,20 @@ header {
   margin: 0 auto;
   margin-top: -0.8vh;
 }
-.wr-team-contain .people-profile .other {
+.wr-team-contain .people-profile-slider .people-profile .other {
   margin-top: 1vh;
   font-family: "OpenSans Light", serif;
   font-size: 16px;
   color: #919191;
 }
-.wr-team-contain .people-profile ul {
+.wr-team-contain .people-profile-slider .people-profile ul {
   list-style-type: none;
   display: flex;
 }
-.wr-team-contain .people-profile li {
+.wr-team-contain .people-profile-slider .people-profile li {
   margin: -2px 9px;
 }
-.wr-team-contain .people-profile svg {
+.wr-team-contain .people-profile-slider .people-profile svg {
   color: grey;
   fill-opacity: 1;
   stroke: #333;
@@ -561,7 +569,7 @@ header {
   width: 20px;
   height: 20px;
 }
-.wr-team-contain .people-profile svg:hover {
+.wr-team-contain .people-profile-slider .people-profile svg:hover {
   color: #f39c12;
 }
 

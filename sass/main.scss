@@ -418,66 +418,74 @@ header {
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    .people-profile {
-        border-top: solid transparent 3px;
+    .people-profile-slider {
+        width: 23%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
-        max-width: 25%;
-        height: 470px;
-        img {
-            margin-top: 5vh;
-            border: solid rgb(201, 201, 201) 2px;
-            border-radius: 50%;
-            box-shadow: 0 0 3px rgba(0,0,0,0.8);
-            width: 200px;
-            height: 200px;
-        }
-        .profile-name {
-            margin-top: 0.5vh;
-            margin-bottom: 30px;
-            font-size: 20px;
-            font-family: "OpenSans Bold", serif;
-            text-transform: uppercase;
-            color: #000;
-        }
-        p {
-            margin-top: -3vh;
-            font-family: "OpenSans Regular", serif;
-            font-size: 15px;
-            color: #ccc;
-        }
-        span {
-            background-color: #ccc;
-            width: 20px;
-            height: 5px;
-            display: flex;
-            margin: 0 auto;
-            margin-top: -0.8vh;
-        }
-        .other {
-            margin-top: 1vh;
-            font-family: "OpenSans Light", serif;
-            font-size: 16px;
-            color: rgb(145, 145, 145);
-        }
-        ul {
-            list-style-type: none;
-            display: flex;
-        }
-        li {
-            margin: -2px 9px;
-        }
-        svg {
-            color: grey;
-            fill-opacity: 1;
-            stroke: #333;
-            stroke-width: 0px;
-            stroke-opacity: 0;
-            width: 20px;
-            height: 20px;
-            
-        }
-        svg:hover {
-            color: #f39c12;
+        .people-profile {
+            border-top: solid transparent 3px;
+            text-align: center;
+            max-width: 100%;
+            height: 470px;
+            img {
+                margin-top: 5vh;
+                border: solid rgb(201, 201, 201) 2px;
+                border-radius: 50%;
+                box-shadow: 0 0 3px rgba(0,0,0,0.8);
+                width: 200px;
+                height: 200px;
+            }
+            .profile-name {
+                margin-top: 0.5vh;
+                margin-bottom: 30px;
+                font-size: 20px;
+                font-family: "OpenSans Bold", serif;
+                text-transform: uppercase;
+                color: #000;
+            }
+            p {
+                margin-top: -3vh;
+                font-family: "OpenSans Regular", serif;
+                font-size: 15px;
+                color: #ccc;
+            }
+            span {
+                background-color: #ccc;
+                width: 20px;
+                height: 5px;
+                display: flex;
+                margin: 0 auto;
+                margin-top: -0.8vh;
+            }
+            .other {
+                margin-top: 1vh;
+                font-family: "OpenSans Light", serif;
+                font-size: 16px;
+                color: rgb(145, 145, 145);
+            }
+            ul {
+                list-style-type: none;
+                display: flex;
+            }
+            li {
+                margin: -2px 9px;
+            }
+            svg {
+                color: grey;
+                fill-opacity: 1;
+                stroke: #333;
+                stroke-width: 0px;
+                stroke-opacity: 0;
+                width: 20px;
+                height: 20px;
+                
+            }
+            svg:hover {
+                color: #f39c12;
+            }
         }
     }
     

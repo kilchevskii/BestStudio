@@ -2082,7 +2082,7 @@ header {
     padding: 0;
   }
   .wr-our-clients .content-forest .size-contain .clients .card-client {
-    width: 100%;
+    min-width: 50%;
     height: 50%;
     margin: 20px 15px;
   }
@@ -2142,6 +2142,10 @@ header {
 
   .wr-our-clients .content-forest .size-contain .clients .card-client img {
     width: 100%;
+  }
+
+  .wr-sorting-project .menu-gallery a {
+    height: 100%;
   }
 }
 

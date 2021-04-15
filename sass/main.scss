@@ -2162,7 +2162,7 @@ header {
                 .clients {
                     padding: 0;
                     .card-client {
-                        width: 100%;
+                        min-width: 50%;
                         height: 50%;
                         margin: 20px 15px;
                     }
@@ -2268,5 +2268,16 @@ header {
             }   
         }
     }
+
+    .wr-sorting-project {
+        .menu-gallery {
+            a {
+                height: 100%;
+            }
+        }
+    }
+    
+
+
 
 }

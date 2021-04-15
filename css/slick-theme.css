@@ -472,6 +472,15 @@
         left: 0;
         bottom: 0;
     }
+
+    .wr-package-service .pricing-table .slick-dots li button {
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        overflow: hidden;
+    }
+
     .wr-package-service .pricing-table .slick-dots li button:before {
         font-size: 70px;
         overflow: visible;

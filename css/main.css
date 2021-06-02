@@ -1232,7 +1232,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-  overflow: auto;
+  /* overflow: auto; */
 }
 .wr-our-clients .content-forest .size-contain .clients .card-client {
   height: 160px;
